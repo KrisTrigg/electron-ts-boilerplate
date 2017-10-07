@@ -4,7 +4,7 @@
 
 
 
-import Greeter from './js/greeter';
+import Greeter from './greeter';
 
 console.log("Should build and then run with F5")
 
