@@ -1,0 +1,30 @@
+{
+  "name": "electron-ts-boilerplate",
+  "version": "0.0.1",
+  "description": "A minimal Electron TypeScript application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "preinstall": "npm i typings gulp-cli -g",
+    "postinstall": "typings install env~node --global && gulp"
+  },
+  "repository": "https://github.com/triggk/electron-ts-boilerplate",
+  "keywords": [
+    "Electron",
+    "TypeScript",
+    "boilerplate"
+  ],
+  "author": "???",
+  "license": "???",
+  "dependencies": {
+    "jquery": "~3.2.1"
+  },
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "typescript": "latest",
+    "typings": "latest",
+    "env-node": "latest",
+    "gulp":"latest",
+    "gulp-typescript":"latest"
+  }
+}
