@@ -17,7 +17,9 @@
   "author": "???",
   "license": "???",
   "dependencies": {
-    "jquery": "~3.2.1"
+    "jquery": "~3.2.1",
+    "popper.js": "^1.11.0",
+    "bootstrap": "4.0.0-beta"
   },
   "devDependencies": {
     "electron": "~1.6.2",
